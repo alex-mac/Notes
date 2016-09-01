@@ -37,39 +37,40 @@ This is a proposition. We don't know if it is true or false, but we know it's ei
 ### Logical Opporators 
 
 ```
-Negation(not) | $/neg$ p
-Conjunction (and) | p $/wedge$ q
-Disjunction (or) | p $/vee$ q
+Negation(not) | ¬p
+Conjunction (and) | p ∧ q
+Disjunction (or) | p ∨ q
 Exclusive Or | p ⊕ q
-Implication | p $/rightarrow$ q
-Biconditional | p $/leftrightarrow$ q
+Implication | p ⟶ q 
+Biconditional | p ⟷ q
 ```
 
 ### Compound Propositions
 
 Propositions formed from existing propositions using logical opporators 
 
-### Negation ( $/neg$ )
+### Negation ( ¬ )
 
-Let _p_ be a proposition. The _negation of p_, denoted by _$/neg$p_, is the statement 
+Let _p_ be a proposition. The _negation of p_, denoted by _¬p_, is the statement 
 > "It is not the case that p."
-The proposition _$/neg$p_ is read "not _p_". The truth value of the negation of _p_, $/neg$p, is the opposite of the truth value of _p_
+The proposition _¬p_ is read "not _p_". The truth value of the negation of _p_, ¬p, is the opposite of the truth value of _p_
 
 #### Examples
 
 ```
-_p_: "Michael's PC runs Linux."
-_$/neg$p_: "It is not the case that Michael's PC runs Linux."
+p: "Michael's PC runs Linux."
+¬p: "It is not the case that Michael's PC runs Linux."
 
-_p_: "Vandana's smartphone has at least 32GB of memory."
-_$/neg$p_: "It is not the case that Vandana's smartphone has at least 32GB of memory." or "Vandana's smartphone has less than 32GB of memory."
+p: "Vandana's smartphone has at least 32GB of memory."
+¬p: "It is not the case that Vandana's smartphone has at least 32GB of memory." or "Vandana's smartphone has less than 32GB of memory."
 ```
 
 #### Truth Table
 
-$p$ | $$/neg$p$
-T | F
-F | T
+| p | ¬p|
+|---|---|
+| T | F |
+| F | T |
 
 
 
