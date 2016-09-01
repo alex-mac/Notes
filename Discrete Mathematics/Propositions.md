@@ -86,12 +86,12 @@ p ∧ q: Alex's PC has more than 16GB fre ehard disk space, and has a processor 
 
 #### Truth Table 
 
-|  p    q  | p ∧ q |
-|----------|-------|
-|  T    T  |   T   |
-|  T    F  |   F   |
-|  F    T  |   F   |
-|  F    F  |   F   |
+|  p  | q  | p ∧ q |
+|-----|----|-------|
+|  T  | T  |   T   |
+|  T  | F  |   F   |
+|  F  | T  |   F   |
+|  F  | F  |   F   |
 
 The conjunction of _p_ and _q_ exists if and only if both _p_ and _q_ are true.
 
@@ -112,12 +112,12 @@ p ∨ q: Alex's PC has at least 16GB free hard disk space, or the processor in A
 
 #### Truth Table 
 
-|  p    q  | p ∨ q |
-|----------|-------|
-|  T    T  |   T   |
-|  T    F  |   T   |
-|  F    T  |   T   |
-|  F    F  |   F   |
+|  p  | q  | p ∨ q |
+|-----|----|-------|
+|  T  | T  |   T   |
+|  T  | F  |   T   |
+|  F  | T  |   T   |
+|  F  | F  |   F   |
 
 ### Exclusive or (p ⊕ q)
 
@@ -125,12 +125,12 @@ Let _p_ and _q_ be propositions. The _exclusive or_ of _p_ and _q_, denoted by _
 
 #### Truth Table 
 
-|  p    q  | p ⊕ q |
-|----------|-------|
-|  T    T  |   F   |
-|  T    F  |   T   |
-|  F    T  |   T   |
-|  F    F  |   F   |
+|  p  | q  | p ⊕ q |
+|-----|----|-------|
+|  T  | T  |   F   |
+|  T  | F  |   T   |
+|  F  | T  |   T   |
+|  F  | F  |   F   |
 
 ## Conditional Statements
 
@@ -178,12 +178,12 @@ These are the same as the first statement
 
 #### Truth Table 
 
-|  p    q  | p → q |
-|----------|-------|
-|  T    T  |   T   |
-|  T    F  |   F   |
-|  F    T  |   T   |
-|  F    F  |   T   |
+|  p  | q  | p → q |
+|-----|----|-------|
+|  T  | T  |   T   |
+|  T  | F  |   F   |
+|  F  | T  |   T   |
+|  F  | F  |   T   |
 
 
 ## Converse, Contrapositive, and Inverse
@@ -209,11 +209,11 @@ Let _p_ and _q_ be propositions. The biconditional statement _p_ ⟷ _q_ is the 
 
 #### Truth Table 
 
-|  p    q  | p ⟷ q |
-|----------|-------|
-|  T    T  |   T   |
-|  T    F  |   F   |
-|  F    T  |   F   |
-|  F    F  |   T   |
+|  p  |  q  | p ⟷ q |
+|-----|----|-------|
+|  T  | T  |   T   |
+|  T  | F  |   F   |
+|  F  | T  |   F   |
+|  F  | F  |   T   |
 
 
