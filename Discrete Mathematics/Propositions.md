@@ -200,7 +200,17 @@ These are the same as the first statement
 > Inverse:
 > ¬p → ¬q
 
-An implication and it's contrapositive / Inverse / Converse always have the same truth value.
+An implication and it's contrapositive  have the same truth value.
+
+When two compound propositions always have the same truth value, they are **equivalent**.  An implication and its contrapositive are **equivalent**. An implication's inverse and the same implication's converse are **equivalent**.
+
+>If it is raining, then the home team wins.
+
+Contrapositive: If the home team does not win, then it is not raining.
+
+Inverse: If it is not raining, then the home team loses.
+
+Converse: If the home team wins, then it is raining.
 
 ## Biconditionals
 
@@ -216,4 +226,14 @@ Let _p_ and _q_ be propositions. The biconditional statement _p_ ⟷ _q_ is the 
 |  F  | T  |   F   |
 |  F  | F  |   T   |
 
+
+## Precedence of Logical Operators
+
+| Operator      | Precedence |
+|---------------|------------|
+|      not      |      1     |
+|      and      |      2     |
+| inclusive or  |      3     |
+|  implication  |      4     |
+| biconditional |      5     |
 
