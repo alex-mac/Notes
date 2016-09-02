@@ -38,7 +38,7 @@ This is a proposition. We don't know if it is true or false, but we know it's ei
 
 ```
 Negation(not) | ¬p
-<a href="https://github.com/alex-mac/Notes/blob/master/Discrete%20Mathematics/Propositions.md#conjunction-p--q">Conjunction (and) | p ∧ q</a>
+[Conjunction (and) | p ∧ q] (#conjunction-p--q")
 Disjunction (or) | p ∨ q
 Exclusive Or | p ⊕ q
 Implication | p → q 
