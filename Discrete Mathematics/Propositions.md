@@ -40,9 +40,9 @@ This is a proposition. We don't know if it is true or false, but we know it's ei
 - [Negation(not) | ¬p] (#negation-p)
 - [Conjunction (and) | p ∧ q] (#conjunction-p--q")
 - [Disjunction (or) | p ∨ q] (#disjunction-p--q)
-- [Exclusive Or | p ⊕ q] (exclusive-or-p--q) 
+- [Exclusive Or | p ⊕ q] (#exclusive-or-p--q) 
 - [Implication | p → q] (#conditional-statements)
-- [Biconditional | p ⟷ q] (#Biconditional-p--q)
+- [Biconditional | p ⟷ q] (#biconditionals
 
 ### Compound Propositions
 
