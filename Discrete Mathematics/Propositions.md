@@ -37,12 +37,12 @@ This is a proposition. We don't know if it is true or false, but we know it's ei
 ## Logical Opporators 
 
 
-- [Negation(not) | ¬p]
+- [Negation(not) | ¬p] (#negation-p)
 - [Conjunction (and) | p ∧ q] (#conjunction-p--q")
-- [Disjunction (or) | p ∨ q]
-- [Exclusive Or | p ⊕ q]
-- [Implication | p → q] 
-- [Biconditional | p ⟷ q]
+- [Disjunction (or) | p ∨ q] (#disjunction-p--q)
+- [Exclusive Or | p ⊕ q] (exclusive-or-p--q)
+- [Implication | p → q] (#implication-p--q)
+- [Biconditional | p ⟷ q] (#Biconditional-p--q)
 
 ### Compound Propositions
 
